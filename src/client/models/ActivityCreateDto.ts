@@ -1,0 +1,12 @@
+/* generated using openapi-typescript-codegen -- do not edit */
+/* istanbul ignore file */
+/* tslint:disable */
+/* eslint-disable */
+import type { ReactionType } from './ReactionType';
+export type ActivityCreateDto = {
+    albumId: string;
+    assetId?: string;
+    comment?: string;
+    type: ReactionType;
+};
+
