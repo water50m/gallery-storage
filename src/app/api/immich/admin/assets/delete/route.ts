@@ -3,6 +3,7 @@
 // import { requireRole } from '@/app/api/immich/utils/requireRole';
 // import { NextResponse } from 'next/server';
 
+export async function DELETE() {}
 // export async function DELETE(req: Request) {
 //   const user = await requireAuth(req);
 //   requireRole(user, 'admin');
